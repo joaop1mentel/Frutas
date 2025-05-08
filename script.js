@@ -206,7 +206,7 @@ function sendToWhatsApp() {
 
     const rawMessage = `Gostaria de Pedir:\n\n${itemsText}\n\n No valor total: R$ ${total}\n\n.`;
     const encodedMessage = encodeURIComponent(rawMessage);
-    const whatsappUrl = `https://wa.me/xxxxxxxxxx?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/5521995299585?text=${encodedMessage}`;
 
     window.open(whatsappUrl, '_blank');
 
